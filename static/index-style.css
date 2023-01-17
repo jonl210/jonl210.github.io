@@ -1,0 +1,42 @@
+body {
+  background-color: #f5efe0;
+}
+
+a {
+  color: #cd2653;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  margin-left: 1rem;
+  align-self: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+nav ul li {
+  margin-right: 1rem;
+  font-weight: 600;
+}
+
+main p {
+  max-width: 50rem;
+  text-align: center;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 0.5px solid #c3c3c3;
+}
