@@ -31,6 +31,12 @@ nav ul li {
   font-weight: 600;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 main p {
   max-width: 50rem;
   text-align: center;
